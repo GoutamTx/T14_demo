@@ -1,9 +1,4 @@
 @startuml
-title Data Flow Diagram (placeholder)
-rectangle "SampleApp:Web" as W
-rectangle "SampleApp:API" as A
-rectangle "SampleApp:DB" as D
-W --> A : HTTPS
-A --> D : SQL
+skinparam dpi 150
+title Data Flow Diagram
 @enduml
-
