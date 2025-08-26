@@ -49,7 +49,7 @@ jobs:
             plantuml -tpng -o diagrams diagrams/dfd.puml || true
           fi
 
-      - name: Gate: Fail on new unmitigated critical threats
+      - name: Fail on new unmitigated critical threats
         id: gate
         run: |
           python scripts/check_new_critical_threats.py
