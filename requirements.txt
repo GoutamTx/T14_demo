@@ -1,1 +1,1 @@
-threatspec>=0.8
+threatspec
